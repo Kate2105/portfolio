@@ -1,0 +1,341 @@
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; 
+   
+}
+img{
+    max-width: 100%;
+}
+.container{
+    
+    max-width: 1173px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+.menu {
+  
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.menu-logo{
+    display: flex;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    background: url('https://pp.userapi.com/c849132/v849132558/100d84/JtrLhbdo_Fc.jpg') no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+}
+.discription{
+    margin-left: 9px;
+}
+.name{
+    font-size: 16px;
+    display: block;
+    font-weight: 800;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+}
+.menu-list a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin-right: 35px;
+    font-weight: 800;
+}
+.menu-list a:hover{
+    text-decoration: underline;
+    width: 50px;
+    font-size: 25px;
+}
+.menu-button{
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 12px 25px 12px 25px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid black;
+    }
+    .menu-button:hover{
+        color: white;
+        background-color: black;
+    }
+    .hero{
+        padding-top: 112px;
+        background: url(http://hotwalls.ru/thumbnails/lg/noutbuk_smartfon_i_staraya_kamera_na_stole.jpg) no-repeat right bottom;
+     }
+    
+    .hero-subtitle{
+        font-size: 32px;
+ 
+    }
+    .hero-title{
+        font-size: 41px;
+        font-weight: 800px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+             
+            }
+        .hero-description{
+            color: #6a696b;
+        }
+    .hero-social{
+        margin-top: 20px;
+        
+    }
+    .social{
+        display: inline-block;
+        width: 41px;
+        height: 41px;
+        margin-right: 12px;
+        text-align: center;
+        line-height: 41px;
+        color: white;
+        border-radius: 5px;
+        background-color: aquamarine;
+    }
+    .ok-bg{
+     background-color: orange;   
+         }
+    .mail-bg{
+     background-color: blue;   
+     }
+     .facebook-bg{
+         background-color: #3a5898;
+     }
+.vk-bg{
+    background-color:#13578a;
+}
+.hero-buttons{
+    margin-top: 40px;
+}
+.button{
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: black;
+    padding: 20px 34px;
+    display: inline-block;
+}
+.button-primary{
+    color:white;
+}
+.button-primary:hover{
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+}
+.button-o{
+    background-color: transparent;
+    color: #6a696b;
+    border: 1px solid #6a696b;
+    margin-left: 15px;
+    
+}
+.button-o:hover{
+    color: black;
+    border: 1px solid black;
+}  
+.projects{
+    padding: 97px 0;
+}
+.project-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project-card{
+    /* min-height: 370px; */
+    width: 370px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0,0.25);
+    margin-bottom: 50px;
+}
+.card-img{
+    height: 300px;
+}
+.card-fon{
+    background: url(https://cdn.freebiesbug.com/wp-content/uploads/2013/12/claymore-app-landing-page-psd-580x435.jpg) center no-repeat;
+    background-size: cover;
+
+}
+.card-info{
+    padding: 19px 13px;
+}
+.project-category{
+    display: block;
+    font-size: 12px;
+    color: #2a2b2c;
+}
+.progect-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+   }
+   .container-info{
+    padding-top: 50px;
+       display: flex;
+       justify-content: space-between;
+   }
+   .avatarka{
+       width: 40%;
+   }
+   .text-info{
+       width: 50%;
+       display:flex;
+       flex-direction: column;
+       justify-content: space-around ;
+   }
+   .title-aboutme{
+    text-transform: uppercase;
+    font-weight: 900;
+     font-size: 40px;
+       
+   }
+   .discription-aboutme{
+       color: gray;
+       font-size: 16px;
+       line-height: 2;
+      
+   }
+   .footer{
+       background-color: #2a2b2c;
+       padding: 20px 0;
+       color: #8d8d8a;
+       margin-top:100px;
+   }
+   .footer a{
+    color: #8d8d8a;
+    text-decoration: none;
+   }
+   .footer-info{
+       display: flex;
+       justify-content: space-between;
+   }
+   .footer-text{
+       display: flex;
+       align-items: center;
+   }
+.copyright{
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid #413f41;
+    font-size: 14px;
+}
+.footer-social-linck{
+    font-size: 20px;
+    margin-right: 12px;
+   
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-menu a{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.footer-button{
+    color: #8d8d8a;;
+     font-size: 14px;
+    padding: 10px 25px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid #8d8d8a;; 
+}
+
+
+
+
+
+/* Адаптив  */
+@media(max-width:1360px){
+   .hero-info{
+       width: 200px;
+   }
+   .hero-social{
+       width: 150px;
+   }
+}
+@media(max-width:1200px){
+    .container{
+        width: 95%;
+    }
+    .hero-social a{
+        margin-bottom: 5px;
+    }
+       
+  .button-o{
+        margin-top: 8px;
+        margin-left: 2px;
+    }
+}
+@media(max-width:992px){
+    .container{
+        width: 760px;
+    }
+    .project-card{
+        width: 45%;
+    }
+    .menu-list{
+        display: none;
+    }
+    .hero{
+        padding-bottom: 500px;
+        padding-top: 10px;
+    }
+    .title-aboutme{
+        font-size: 20px;
+    }
+    .discription-aboutme{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        width: 95%;
+    }
+    .project-card{
+        width: 90%;
+     justify-content: center;
+    }
+        .title-aboutme{
+            font-size: 10px;
+                }
+    .discription-aboutme{
+        font-size: 6px;
+    }
+    .container-info{
+        flex-direction: column;
+        align-items: center;
+            }
+  .projects {
+                padding: 10px 0px;
+            }
+.hero{
+    background: none;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.hero-subtitle{
+    font-size: 16px;
+}
+.hero-title{
+    font-size: 20px;
+}
